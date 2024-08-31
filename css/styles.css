@@ -1,3 +1,13 @@
 body {
-  font-family: 'Tangerine', cursive;
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }

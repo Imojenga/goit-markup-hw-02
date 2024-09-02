@@ -2,6 +2,9 @@ body {
   font-family: 'Roboto', 'Helvetica Neue', 'Verdana', 'Tahoma', sans-serif;
   color: #2e2f42;
   background-color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 a {
@@ -14,4 +17,43 @@ ul {
 
 button {
   cursor: pointer;
+}
+
+.accent {
+  font-family: 'Raleway', sans-serif;
+  color: #4d5ae5;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.54;
+  text-transform: uppercase;
+}
+
+.nav-logo-link {
+  font-family: 'Raleway', sans-serif;
+  color: #2e2f42;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.54;
+  text-transform: uppercase;
+}
+
+.nav-links a {
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #404bbf;
+}
+
+.studio:active {
+  text-decoration: underline;
+}
+
+.contact-links a {
+  color: #434455;
+  font-style: normal;
+}
+
+.contact-links a:hover {
+  color: #404bbf;
 }

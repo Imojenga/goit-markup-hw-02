@@ -13,8 +13,8 @@ button {
 }
 
 body {
-  font-family: 'Roboto', 'Helvetica Neue', 'Verdana', 'Tahoma', sans-serif;
-  color: #2e2f42;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
   background-color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
@@ -24,14 +24,16 @@ body {
 .page-logo,
 .footer-logo {
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
-.accent {
-  color: #4d5ae5;
+.page-logo-accent {
+  color: #2e2f42;
 }
 
 .menu-link,
@@ -40,19 +42,20 @@ body {
 }
 
 .menu-link:hover,
-.menu-link:focus,
-.menu-link-studio:hover,
-.menu-link-studio:focus {
+.menu-link:focus {
   color: #404bbf;
 }
 
-.menu-link-studio:active {
+.menu-link:active {
   text-decoration: underline;
+}
+
+.page-address {
+  font-style: normal;
 }
 
 .contact-link {
   color: #434455;
-  font-style: normal;
 }
 
 .contact-link:hover,
@@ -69,6 +72,7 @@ body {
   line-height: 1.07;
   color: #ffffff;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .hero-button {
@@ -88,6 +92,8 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .solutions-title,
@@ -96,6 +102,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .solutions-text,
@@ -110,13 +117,14 @@ body {
 
 .team-list-item {
   text-align: center;
+  background-color: #ffffff;
 }
 
 .page-footer {
   background-color: #2e2f42;
 }
 
-.footer-logo {
+.footer-accent {
   color: #f4f4fd;
 }
 

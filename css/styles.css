@@ -39,6 +39,7 @@ body {
 .menu-link,
 .menu-link-studio {
   font-weight: 500;
+  color: #2e2f42;
 }
 
 .menu-link:hover,
@@ -99,7 +100,7 @@ body {
 
 .solutions-title,
 .team-title,
-.portfolio-title {
+.portfolio-list-title {
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
